@@ -5,7 +5,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 function Footer() {
   return (
     <div >
-      <ul className=' bottom-0 bg-gray-300 minx-h-[40px] my-0  border-b border-black grid grid-cols-1 md:grid-cols-4 w-full justify-end items-center end-0 gap-3 pr-3 dark:bg-black dark:border-darkborder px-[45px] p-5 border-t'>
+      <ul className='bg-gray-300 minx-h-[40px] my-0  border-b border-black grid grid-cols-1 md:grid-cols-4 w-full justify-end items-center end-0 gap-3 pr-3 dark:bg-black dark:border-darkborder px-[45px] p-5 border-t'>
 
         
       {footerData.map((e) => {
