@@ -90,7 +90,7 @@ const IncomeContent = () => {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 bg-gray-300 rounded-md p-2 dark:bg-darkdivbg min-h-screen">
         {items.map((item) => (
-          <div  className="p-4  rounded bg-gray-200 hover:bg-gray-400 flex-col dark:bg-darkdivbginner dark:hover:bg-darkdivbghover">
+          <div  className="p-4  rounded bg-gray-200 hover:bg-gray-400 flex-col dark:bg-darkdivbginner dark:hover:bg-darkdivbghover max-h-[120px]">
             <h3 className="text-xl font-bold">{item.heading}</h3>
             <p>Amount: {item.amount}</p>
             <p className='truncate'>{item.description}</p>
